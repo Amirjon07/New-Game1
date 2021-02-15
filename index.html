@@ -11,7 +11,23 @@
     <script src="cannon.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
 
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBisLDZZhVPL4cNQYSPu6tteNL8vLCuTo0",
+        authDomain: "new-game1.firebaseapp.com",
+        databaseURL: "https://new-game1-default-rtdb.firebaseio.com",
+        projectId: "new-game1",
+        storageBucket: "new-game1.appspot.com",
+        messagingSenderId: "339549343680",
+        appId: "1:339549343680:web:524836425e3cf30b0c8225"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
   </head>
   <body>
     <script src="sketch.js"></script>

@@ -24,7 +24,7 @@ var input=createInput("Type Here")
     button.mousePressed(function(){
     input.hide();
     button.hide();
-     var name = this.input.value();
+     var name = input.value();
      // playerCount+=1;
      // player.index = playerCount;
      // player.update();
